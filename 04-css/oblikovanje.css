@@ -43,22 +43,27 @@ h2 {
     padding: 2em;
     background-color: rgb(51, 0, 102, 0.1);
     }
-div {
+.slika {
+    border: 2px solid red;
     font-size: 0.9em;
     width: 40%;
     text-align: left;
-}
-.slika {
-    font-size: 1.2em;
-    width: 42em;
-    text-align: left;
+    float: right;
+    margin-left: 2em;
 }
 .slika img {
     max-width: 100%;
     height: auto;
     display: block;
 }
-.slika {
-    float: right;
-    margin-left: 2em;
+
+.slika p:last-child {
+    font-size: 0.8em;
+}
+a::before {
+    content: "🔗";
+    color: #555;
+}
+.slika img {
+    border-radius: 50%;
 }
