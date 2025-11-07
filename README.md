@@ -1,1 +1,1 @@
-# racunalniski-praktikum_real
+# Računalniški praktikum
